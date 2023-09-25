@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;1,600&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+html, body {
+    height: 100%;
+    background-color: rgb(160, 48, 166);
+  }
+
+
+.foto img{
+    width: 300px;
+   
+        border: 5px solid rgb(214, 149, 226);
+        border-radius: 70px;
+        box-shadow: 0px -2px 39px 17px;
+}
+
+
+.fondo img{
+    width: max-content;
+    height: max-content;
+}
+
+
+body {
+    min-height: 100%;
+    background-image: url("https://thenaturehero.com/wp-content/uploads/2022/07/Bunny-theme-gaming-setup-1024x768.jpg");
+    background-size: cover;
+    min-height: 1000px;
+    color: hsl(0, 0%, 2%);
+}
+
+
+
+.inicio .contenido-seccion{
+max-width: 1000px;
+margin: auto;
+text-align: center;
+padding: 0 10px;
+}
+
+
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+
+
+/* Menú Latera*/
+nav{
+position: fixed;
+margin-left: 60px;
+background-color: #e2adca;
+padding: 15px;
+border-radius: 10px;
+text-align: left;
+z-index: 99;
+display: none;
+}
+
+.nav-bar:hover nav{
+    background-color: rgb(224, 126, 182);
+    display: block !important;
+}
+
+
+nav a{
+    display: block;
+    color: #600670;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+/* ****** */
+.logo{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px  #b51f80;
+}
+
+
+.logo .color{
+    color:#efd1ec;
+    font-family: "Yellowtail";
+}
+
+
+.nav-bar{
+    position: fixed;
+    background-color: #e49a9a;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50%;
+    cursor: pointer;
+    transition: 3s;
+}
+
+
+.nav-bar:hover{
+    box-shadow: 0 35px #f8728b;
+   
+}
+
+
+.info{
+    padding-bottom: 100px;
+}
+
+
+
+.info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 7px #4cbff0;
+   
+}
+
+
+.info h2{
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px  #f1f8f8;
+}
+
+.info .redes{
+    margin: 20px 0;
+}
+
+.info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #d86ea9;
+    color:#e8dae4;
+    border: 1px solid #100213;
+    border-radius: 50%;
+    width: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: 1s;
+
+}
+
+.info .redes a:hover{
+    color: #ebc0ce;
+    background-color: #f4b0b0;
+    box-shadow: 0 0 20px #f3b8e0;
+}
+
+/* ESTILO GENERAL */
+.titulo-secundario{
+    font-family: "Yellowtail";
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px #4cbff0;
+}
+
+/* ACERCA DE MÍ */
+.acercademi{
+background-color: #e2adca;
+padding: 140px 0 100px 0;
+text-align: center;
+}
+
+.acercademi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.acercademi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px #df877d;
+}
+
+.especial{
+    color: #e49a9a;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.acercademi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: #100213;
+}
+
+.contenido-seccion .fila{
+    display: block;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.fila .col{
+    width: 30%;
+}
+
+.fila .col i{
+color: hsl(90, 19%, 94%);
+display: inline-block;
+width: 40px;
+height: 40px;
+border: 2px solid #cd57ea;
+line-height: 40px;
+border-radius: 50%;
+}
+
+.fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background-image: url("https://www.appcraver.com/wp-content/uploads/2022/09/Best-Pink-Gaming-Setup-Ideas-For-Gamer-Girls-In-2022.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center, center;
+    color:rgb(248, 245, 45)
+}
+
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.habilidades .contenido-seccion .fila .color{
+    width: 47%;
+    text-align: left;
+}
+
+.habilidades .contenido-seccion .fila .color .cont-barra{
+    display: flex;
+    align-items: center;
+}
+
+.habilidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid #1a1515;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.habilidades .contenido-seccion .barra .e{
+    background-color: #efe3f2;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+/*SECCION RESUMEN*/
+
+.resumen{
+    background-color: #afcbd6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+
+.resumen .contenido-seccion{
+    max-width: 1220px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.resumen .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.resumen .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.resumen .contenido-seccion .info .color{
+width: 45%;
+}
+
+
+.resumen .contenido-seccion .info .color .titulo{
+    display: inline-block;
+    color: #e34fbb;
+    font-weight: bold;
+    border: 2px solid #0986a5;
+    padding: 10px;
+}
+
+.resumen .contenido-seccion .info .color  table{
+    margin-top: 30px;
+    border-collapse: collapse;
+
+}
+
+.resumen .contenido-seccion .info .color  table .datos{
+    width: 40%;
+    border-bottom: 1px solid #2f08dd;
+}
+
+.resumen .contenido-seccion .info .color  table h4{
+    margin-top: 10px ;
+}
+
+.resumen .contenido-seccion .info .color  table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.resumen .contenido-seccion .info .color  table p{
+    font-size: 14px;
+}
+
+.resumen .contenido-seccion .info .color  table .promedio{
+    display: block;
+    color: #b51f80;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.resumen .contenido-seccion .info .color  table .descripcion{
+    border-left: 1px solid #202081;
+    padding-left: 20px;
+}
+
+/*SECCION CONTACTO*/
+.contacto{
+    background-color: #eba7d7;
+    padding: 140px 0 100px 0;
+    color: #1181b1;
+    text-align: center;
+}
+
+.contacto .contenido-seccion{
+    max-width: 1000;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .contenido-seccion  h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto .contenido-seccion .fila .color{
+    margin-top: 50px;
+}
+
+.contacto .contenido-seccion .fila .color h2{
+    color: #100213;
+}
+
+/*SECCION RESPONSIVE*/
+@media screen {
+    .habilidades .contenido-seccion .fila{
+display: block;
+}
+
+.habilidades .contenido-seccion .fila .color{
+    width: 100%;
+    text-align: center;
+}
+
+.habilidades .contenido-seccion .fila .color .cont-barra{
+    justify-content: center;
+}
+
+.acercademi .contenido-seccion .fila{
+    display: block;
+}
+
+.acercademi .contenido-seccion .fila .color{
+    width: 80%;
+    margin: auto;
+    margin-top:  20px;
+}
+
+.resumen .contenido-seccion .info .color{
+    width: 90%;
+    margin: auto;
+}
+
+.resumen .contenido-seccion .info .color .titulo{
+display: block;
+text-align: center;
+}
+
+.resumen .contenido-seccion .info .color table{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contacto .contenido-seccion .fila{
+    display: block;
+}
+   
+}
